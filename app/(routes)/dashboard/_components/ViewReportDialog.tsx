@@ -26,7 +26,7 @@ function ViewReportDialog({ record }: Props) {
             View Full Report
           </Button>
         </DialogTrigger>
-        <DialogContent className="lg:max-w-3xl">
+        <DialogContent className="lg:max-w-3xl mt-20">
           <DialogHeader>
             <DialogTitle asChild>
               <h2 className="text-center">Medical AI Voice Agent Report</h2>
