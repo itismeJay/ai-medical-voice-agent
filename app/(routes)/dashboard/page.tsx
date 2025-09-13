@@ -8,7 +8,7 @@ export default function Dashboard() {
   return (
     <div>
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl font-semibold">My Dashboard</h2>
+        <h2 className="text-lg md:text-2xl font-semibold">My Dashboard</h2>
         <AddSessionDetails />
       </div>
       <HistoryList />
